@@ -15,6 +15,13 @@ ul {
 .header {
     background: #fff;
 }
+.container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -39,7 +46,7 @@ ul {
     color: #404bbf;
 }
 .contact-us {
-    font-style: normal;
+    font-style: normal;    
 }
 .contacts {
     color: #434455;
@@ -50,7 +57,23 @@ ul {
 .contacts:focus {
     color: #404bbf;
 }
-
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo-and-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+.nav {
+    display: flex;
+    gap: 40px;
+}
+.contact-us-list {
+    display: flex;
+    gap: 40px;
+}
 /* main */
 
 .main {
